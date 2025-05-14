@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Global Tracker</title>
+</head>
+<body>
+    <h1>COVID-19 Global Data Tracker</h1>
+    <div>
+        <h2>Total Cases</h2>
+        <p>{{ total_cases }}</p>
+    </div>
+    <div>
+        <h2>Total Deaths</h2>
+        <p>{{ total_deaths }}</p>
+    </div>
+    <div>
+        <h2>Total Recovered</h2>
+        <p>{{ total_recovered }}</p>
+    </div>
+    <div>
+        <h2>Active Cases</h2>
+        <p>{{ active_cases }}</p>
+    </div>
+    <div>
+        <h2>Critical Cases</h2>
+        <p>{{ critical_cases }}</p>
+    </div>
+    <div>
+        <h2>Total Tests</h2>
+        <p>{{ total_tests }}</p>
+    </div>
+    <div>
+        <h2>Today's Cases</h2>
+        <p>{{ today_cases }}</p>
+    </div>
+    <div>
+        <h2>Today's Deaths</h2>
+        <p>{{ today_deaths }}</p>
+    </div>
+    <footer>
+        <p>Last updated: {{ updated_at }}</p>
+    </footer>
+</body>
+</html>
