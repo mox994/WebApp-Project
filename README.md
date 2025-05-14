@@ -1,4 +1,5 @@
 # Project Title
+COVID-19 Global Data Tracker
 
 **Short Description:**  
 A brief overview of your project, explaining what it does and its purpose.
